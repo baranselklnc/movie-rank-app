@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img{
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+
+h1,h2,h3,h4,h5,h6{
+  color: rgb(66, 67, 68);
+}
+
+.color1{
+  color : #7F8FE9
+}
+.color2{
+  color : #F5DFD9
+}
+.color3{
+  color : #5C9AFF
+}
+.color4{
+  color : #DDE7FA
+}
+
+.glyphicon{
+  color: #95A5A6 !important;
+}
+
+
+.navbar-default{
+  background-color: #7f8fe9;
+}
+.navbar{
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus {
+  color: #aab5f3;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #aab5f3;
+  background-color: transparent;
+}
+
+.glyphicon-search{
+  color: #fff !important;
+}
+
+.progress{
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
